@@ -15,6 +15,7 @@ body {
   justify-content: center;
   padding: 50px 20px;
   background-color: #fafafa;
+  
 }
 
 img {
@@ -35,7 +36,7 @@ img {
   justify-content: space-evenly;
   border-radius: 50px;
   background: #ffffff;
-  box-shadow: 8.41px 8.41px 13px #E8E8E8, -8.41px -8.41px 13px #FFFFFF;
+  box-shadow: 8.41px 8.41px 13px #e8e8e8, -8.41px -8.41px 13px #ffffff;
 }
 
 .search-box {
@@ -53,12 +54,11 @@ img {
   font-weight: 500;
   text-transform: capitalize;
   padding: 10px 12px;
-  border-radius:10px;
-  background: #ffffff;
-
+  border-radius: 10px;
+  border: 1px solid transparent;
 }
 .search-box input:focus {
- 
+  border: 1px solid #000;
 }
 
 .search-box input::placeholder {
@@ -82,8 +82,7 @@ img {
 .search-box button:hover {
   color: #000;
   background-color: #fff;
-  box-shadow: 8.41px 8.41px 13px #E8E8E8, -8.41px -8.41px 13px #FFFFFF;
-
+  box-shadow: 8.41px 8.41px 13px #e8e8e8, -8.41px -8.41px 13px #ffffff;
 }
 
 .search-box i {
@@ -245,3 +244,4 @@ img {
     font-weight: 500;
   }
 }
+
