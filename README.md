@@ -1,6 +1,11 @@
 # App de Previsão do Tempo ☁️
 Este é um projeto de um aplicativo de previsão do tempo, com o objetivo de estudar a utilização de APIs e aprimorar as habilidades em HTML, CSS e JavaScript.
 
+<p align="center"> 
+<img src="readme-gif/weather-app.gif"
+</p>
+
+
 ## Funcionalidades
 O aplicativo permite ao usuário obter informações sobre a previsão do tempo para uma determinada localidade, incluindo:
 
