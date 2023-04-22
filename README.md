@@ -25,7 +25,7 @@ O aplicativo de previsão do tempo foi desenvolvido usando as seguintes tecnolog
 A API utilizada fornece informações meteorológicas atualizadas para o aplicativo. O JavaScript é usado para consumir essas informações da API e atualizar a interface do usuário com as informações correspondentes.
 
 ## Instalação
-Para utilizar o aplicativo de previsão do tempo, basta acessar o <a href="https://peraltazz.github.io/clima-app/" target="_blank">LINK</a> do projeto.
+Para utilizar o aplicativo de previsão do tempo, basta acessar o <a href="https://peraltazz.github.io/clima-app/">LINK</a> do projeto.
 
 
 ## Como Usar
