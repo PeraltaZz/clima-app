@@ -14,8 +14,8 @@ body {
   align-items: center;
   justify-content: center;
   padding: 50px 20px;
-  background-color: #fafafa;
-  
+  background: url(../images/wave-bg.svg);
+  background-size: cover;
 }
 
 img {
@@ -25,7 +25,6 @@ img {
 .container {
   width: 400px;
   height: 105px;
-  background-color: #edeafd;
   padding: 26px;
   overflow: hidden;
   border-radius: 16px;
@@ -34,9 +33,12 @@ img {
   display: grid;
   grid-template-rows: min-content auto min-content;
   justify-content: space-evenly;
-  border-radius: 50px;
-  background: #ffffff;
-  box-shadow: 8.41px 8.41px 13px #e8e8e8, -8.41px -8.41px 13px #ffffff;
+background: rgba(216, 242, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.9px);
+-webkit-backdrop-filter: blur(4.9px);
+border: 1px solid rgba(216, 242, 255, 0.1);
 }
 
 .search-box {
@@ -48,18 +50,16 @@ img {
 }
 
 .search-box input {
-  color: #141414;
+  color: #123159;
   width: 80%;
-  font-size: 1.5rem;
+  font-size: 1.33rem;
   font-weight: 500;
   text-transform: capitalize;
   padding: 10px 12px;
   border-radius: 10px;
-  border: 1px solid transparent;
+  background-color: #ffffff;
 }
-.search-box input:focus {
-  border: 1px solid #000;
-}
+
 
 .search-box input::placeholder {
   font-size: 1.25rem;
@@ -74,20 +74,18 @@ img {
   height: 42px;
   border-radius: 50%;
   font-size: 1.25rem;
-  color: #fff;
-  background: #000;
+  color: #123159;
+  background: #b0e2fd;
   transition: 0.4s ease;
 }
 
 .search-box button:hover {
-  color: #000;
-  background-color: #fff;
-  box-shadow: 8.41px 8.41px 13px #e8e8e8, -8.41px -8.41px 13px #ffffff;
+  background: #8cd5fc;
 }
 
 .search-box i {
   font-size: 1.5rem;
-  color: #000;
+  color: #123159;
 }
 
 .weather-box {
@@ -103,7 +101,7 @@ img {
 }
 
 .weather-box .temperature {
-  color: #000;
+  color: #123159;
   font-size: 4rem;
   font-weight: 500;
 }
@@ -116,7 +114,7 @@ img {
 }
 
 .weather-box .description {
-  color: #141414;
+  color: #164f92;
   font-size: 1.375rem;
   font-weight: 500;
   text-transform: capitalize;
@@ -127,7 +125,7 @@ img {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
-  color: #141414;
+  color: #164f92;
   gap: 20px;
 }
 
@@ -140,7 +138,7 @@ img {
 
 .weather-details i {
   font-size: 26px;
-  color: #000;
+  color: #123159;
 }
 
 .weather-details span {
@@ -150,8 +148,8 @@ img {
 
 .weather-details p {
   font-size: 0.85rem;
-  font-weight: 500px;
-  color: #313131;
+  font-weight: 500;
+  color: #1256af;
 }
 .not-found {
   width: 100%;
@@ -244,4 +242,3 @@ img {
     font-weight: 500;
   }
 }
-
