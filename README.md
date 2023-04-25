@@ -2,7 +2,7 @@
 Este é um projeto de um aplicativo de previsão do tempo, com o objetivo de estudar a utilização de APIs e aprimorar as habilidades em HTML, CSS e JavaScript.
 
 <p align="center"> 
-<img src="readme-gif/weather-app.gif"
+<img src="readme-gif/app.gif"
 </p>
 
 
